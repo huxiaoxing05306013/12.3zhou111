@@ -223,7 +223,7 @@
                 })
             },
             handleAvatarSuccess(res){
-              this.saveFrom.img=res;
+                this.saveFrom.img=res;
             },
             handleClose(){
                 this.dialogVisible=false;
